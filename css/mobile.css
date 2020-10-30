@@ -162,6 +162,78 @@
     }
     
 }
+@media screen  and (orientation: landscape) and (max-width: 1024px) { 
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        line-height: 50px;
+    }
+    #menu-mobile{
+        display: inline;
+    }
+    .header-information{
+        display: none;
+    }
+    .product{
+        height: 360px;
+        margin-bottom: 20px;
+    }
+    .product-information{
+        top: 94%;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .products-shirt-menu{
+        width: 70%;
+    }
+    .footer-bottom ul{
+        display: none;
+    }
+    .wrapper{
+        text-align: left;
+    }
+    .col-3-register{
+        left: 18%;
+    }
+    .footer-bottom{
+        text-align: left;
+    }   
+     .footer-bottom >div{
+        border-bottom: 1px solid gray;
+    }
+    .product-information{
+        font-size: 10px;
+    }
+    .product-submit{
+        font-size: 10px;
+    }
+    .btn-footer{
+        float: right;
+        display: inline-block;
+        outline: none;
+    }
+    .bottom-col-1:hover .bottom-col-1-list{
+        display: inline-block;
+    }
+    .bottom-col-2:hover  .bottom-col-2-list{
+        display: inline-block;
+    }
+    .bottom-col-3:hover  .bottom-col-3-list{
+        display: inline-block;
+    }
+    .bottom-col-4:hover  .bottom-col-4-list{
+        display: inline-block;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    
+}
 @media screen and (max-width: 480px) and (min-width:320px){
     .menu{
         display: none;
@@ -179,7 +251,7 @@
         display: none;
     }
     .product{
-        height: 270px;
+        height: 280px;
         margin-bottom: 50px;
     }
     .product-information{
@@ -204,6 +276,55 @@
         left: 35%;
     }
 }
+@media screen and (orientation: landscape) and (max-width: 736px) and (min-width:320px){
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        line-height: 50px;
+    }
+    #menu-mobile{
+        display: inline;
+    }
+    .header-information{
+        display: none;
+    }
+    .product{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .product-information{
+        font-size: 10px;
+    }
+    .product-submit{
+        font-size: 10px;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .set-col img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .products-shirt-menu{
+        width: 100%;
+        font-size: 10px;
+    }
+    .col-3-register{
+        left: 35%;
+    }
+}
+
+/* @media screen and (max-width: 667px){
+    .product{
+        height: 480px;
+        margin-bottom: 50px;
+    }
+} */
 @media screen and (max-width: 1024px){
     .menu{
         display: none;
