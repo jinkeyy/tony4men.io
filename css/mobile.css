@@ -1,0 +1,212 @@
+.topnav{
+    width: 0%;
+    background-color:white;
+    left: -250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    transition: 1s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.topnav-menu{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+.category{
+    border-bottom:1px solid gray ;
+}
+.categorys{
+    display: flex;
+    position: relative;
+}
+.categorys button{
+  border: none;
+  outline: none;
+  background-color: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  right: 0;
+}
+.topnav-menu-ao{
+    position: absolute;
+    right: 250px;
+    background-color: white;
+    transition: 0.5s;
+    width: 250px;
+    height: 100%;
+    z-index: 4;
+    transition:  left 0.4s;
+}
+.topnav-menu-quan{
+    position: absolute;
+    right: 250px;
+    background-color: white;
+    transition: 0.5s;
+    width: 250px;
+    height: 100%;
+    z-index: 4;
+    transition:  left 0.4s;
+}
+.topnav-menu-item{
+    position: absolute;
+    right: 250px;
+    background-color: white;
+    transition: 0.5s;
+    width: 250px;
+    height: 100%;
+    z-index: 4;
+    transition:  left 0.4s;
+}
+#main{
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+}
+.topnav-menu button{
+    position: absolute;
+    left: 10px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+.mobile-menu{
+    position: absolute;
+    left: 0px;
+    width: 245px;
+    transition: 0.5s;
+}
+.category p{
+    padding-left: 10px;
+}
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        line-height: 50px;
+    }
+    #menu-mobile{
+        display: inline;
+    }
+    .header-information{
+        display: none;
+    }
+    .product{
+        height: 260px;
+        margin-bottom: 20px;
+    }
+    .product-information{
+        top: 94%;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .products-shirt-menu{
+        width: 70%;
+    }
+    .footer-bottom ul{
+        display: none;
+    }
+    .wrapper{
+        text-align: left;
+    }
+    .col-3-register{
+        left: 18%;
+    }
+    .footer-bottom{
+        text-align: left;
+    }   
+     .footer-bottom >div{
+        border-bottom: 1px solid gray;
+    }
+    .product-information{
+        font-size: 10px;
+    }
+    .product-submit{
+        font-size: 10px;
+    }
+    .btn-footer{
+        float: right;
+        display: inline-block;
+        outline: none;
+    }
+    .bottom-col-1:hover .bottom-col-1-list{
+        display: inline-block;
+    }
+    .bottom-col-2:hover  .bottom-col-2-list{
+        display: inline-block;
+    }
+    .bottom-col-3:hover  .bottom-col-3-list{
+        display: inline-block;
+    }
+    .bottom-col-4:hover  .bottom-col-4-list{
+        display: inline-block;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 480px) and (min-width:320px){
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        line-height: 50px;
+    }
+    #menu-mobile{
+        display: inline;
+    }
+    .header-information{
+        display: none;
+    }
+    .product{
+        height: 270px;
+        margin-bottom: 50px;
+    }
+    .product-information{
+        font-size: 10px;
+    }
+    .product-submit{
+        font-size: 10px;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .set-col img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .products-shirt-menu{
+        width: 100%;
+        font-size: 10px;
+    }
+    .col-3-register{
+        left: 35%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .menu{
+        display: none;
+    }
+}
+
